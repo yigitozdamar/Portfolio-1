@@ -20,7 +20,13 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row>
+          <p style={{ color: "white", fontSize: "100px" }}>
+            Under construction !!! <br />
+            You can look at the github repository until this page will be ready.
+          </p>
+        </Row>
+        {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -81,7 +87,7 @@ function Projects() {
               link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );
