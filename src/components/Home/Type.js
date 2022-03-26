@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Web Developer",
           "System Engineer",
-          "Cessna T-182 / UH-1 / T-129 ATAK Helicoper Pilot",
+          "Cessna T-182 / UH-1 / T-129 ATAK Helicopter Pilot",
         ],
         autoStart: true,
         loop: true,
