@@ -7,6 +7,7 @@ import todolistimage from "../../Assets/Projects/todolistimage.png";
 import traveladvisor from "../../Assets/Projects/traveladvisor.png";
 import weatherapp from "../../Assets/Projects/weatherapp.png";
 import blogwebsite from "../../Assets/Projects/blogwebsite.png";
+import amazonClone from "../../Assets/Projects/amazonClone.png";
 
 function Projects() {
   return (
@@ -20,6 +21,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={amazonClone}
+              isBlog={false}
+              title="Amazon Clone"
+              description="Amazon clone built with ReactJs, Firebase,Material UI, and stripe payment gateway."
+              link="https://github.com/yigitozdamar/amazon-clone"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cryptoapp}
