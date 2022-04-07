@@ -8,6 +8,7 @@ import traveladvisor from "../../Assets/Projects/traveladvisor.png";
 import weatherapp from "../../Assets/Projects/weatherapp.png";
 import blogwebsite from "../../Assets/Projects/blogwebsite.png";
 import amazonClone from "../../Assets/Projects/amazonClone.png";
+import spotifyClone from "../../Assets/Projects/spotifyClone.png";
 
 function Projects() {
   return (
@@ -21,6 +22,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={spotifyClone}
+              isBlog={false}
+              title="Spotify Clone"
+              description="Spotify clone built with ReactJs,TailwindCSS and NextJs with authentation."
+              link="https://github.com/yigitozdamar/spotify-clone"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={amazonClone}
