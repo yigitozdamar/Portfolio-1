@@ -10,6 +10,9 @@ import blogwebsite from "../../Assets/Projects/blogwebsite.png";
 import amazonClone from "../../Assets/Projects/amazonClone.png";
 import spotifyClone from "../../Assets/Projects/spotifyClone.png";
 import mediumClone from "../../Assets/Projects/mediumClone.png";
+import varmi from "../../Assets/Projects/varmi.png";
+import flickez from "../../Assets/Projects/flickez.png";
+import expo from "../../Assets/Projects/expo.png";
 
 function Projects() {
   return (
@@ -23,6 +26,31 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={varmi}
+              isBlog={false}
+              title="VARMI Web App"
+              description="VARMI is a web app that allows you to search for everything you need. I used React, Nextjs, Tailwind, Firebase and TypeScript to build this app."
+              link="https://www.varmi.com.tr"
+            />
+          </Col> <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={flickez}
+              isBlog={false}
+              title="FLICKEZ Web App"
+              description="Flickez is an e-sport web app. I used NextJs, TailwindCSS, SWR and Typescript to build it."
+              link="https://flickez.com/"
+            />
+          </Col> <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={expo}
+              isBlog={false}
+              title="EXPO Virtual Exhibition Web App"
+              description="I created this web app to showcase my work in the Expo Virtual Exhibition. I used ReactJs,Bootstrap,BabylonJs,Context API,PostgreSQL."
+              link="https://www.vexpo.com"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mediumClone}
