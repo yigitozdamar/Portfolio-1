@@ -8,6 +8,10 @@ import {
   DiGit,
   DiCss3,
   DiHtml5,
+  DiApple,
+  DiSwift,
+  DiUikit,
+  DiAppstore
 } from "react-icons/di";
 
 import { SiNextdotjs } from "react-icons/si";
@@ -17,6 +21,18 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiApple />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiSwift />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiUikit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAppstore />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />

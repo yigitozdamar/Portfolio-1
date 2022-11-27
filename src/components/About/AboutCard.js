@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Yigit Ozdamar </span>
             from <span className="purple"> Fethiye, Turkey</span>
-            <br />I am a system engineer and web developer.
+            <br />I am a system engineer and software developer.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

@@ -13,6 +13,8 @@ import mediumClone from "../../Assets/Projects/mediumClone.png";
 import varmi from "../../Assets/Projects/varmi.png";
 import flickez from "../../Assets/Projects/flickez.png";
 import expo from "../../Assets/Projects/expo.png";
+import holidayFriend from "../../Assets/Projects/HolidayFriend.png";
+import swiftRadio from "../../Assets/Projects/SwiftRadio.png";
 
 function Projects() {
   return (
@@ -26,6 +28,27 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={holidayFriend}
+              isBlog={false}
+              title="HolidayFriend App"
+              description="I used swift 5, UIKit, Firebase Auth, Firebase Cloudstore, Firebase Storage, Google Sign-in, MessageKit, Snapkit for Holiday Friend App. No storyboard, developed programmatically."
+              link="https://github.com/yigitozdamar/"
+            />
+          </Col> 
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={swiftRadio}
+              isBlog={false}
+              title="Swift Radio App"
+              description="Swift 5, UIKit. I coded programmatically with no storyboard."
+              link="https://github.com/yigitozdamar/"
+            />
+          </Col> 
+
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={varmi}
@@ -34,7 +57,9 @@ function Projects() {
               description="VARMI is a web app that allows you to search for everything you need. I used React, Nextjs, Tailwind, Firebase and TypeScript to build this app."
               link="https://www.varmi.com.tr"
             />
-          </Col> <Col md={4} className="project-card">
+          </Col> 
+
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={flickez}
               isBlog={false}
@@ -42,7 +67,8 @@ function Projects() {
               description="Flickez is an e-sport web app. I used NextJs, TailwindCSS, SWR and Typescript to build it."
               link="https://flickez.com/"
             />
-          </Col> <Col md={4} className="project-card">
+          </Col> 
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={expo}
               isBlog={false}
