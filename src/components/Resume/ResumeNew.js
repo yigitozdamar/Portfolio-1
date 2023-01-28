@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://drive.google.com/file/d/1Bs7_BhHNt1-XMkeQLj4rouSlTHEgCaKl/view?usp=share_link";
+  "https://raw.githubusercontent.com/yigitozdamar/Portfolio-1/eeb317f31b8daf21341ecf860b3a081fa917724e/src/Assets/Yigit_OZDAMAR_CV.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
