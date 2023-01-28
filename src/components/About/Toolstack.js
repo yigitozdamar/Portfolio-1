@@ -7,7 +7,6 @@ import {
   SiHeroku,
   SiVercel,
   SiMacos,
-  SiReact,
   SiXcode
 } from "react-icons/si";
 
