@@ -15,6 +15,7 @@ import flickez from "../../Assets/Projects/flickez.png";
 import expo from "../../Assets/Projects/expo.png";
 import holidayFriend from "../../Assets/Projects/HolidayFriend.png";
 import swiftRadio from "../../Assets/Projects/SwiftRadio.png";
+import quizapp from "../../Assets/Projects/quizupimage.jpeg";
 
 function Projects() {
   return (
@@ -28,6 +29,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={quizapp}
+              isBlog={false}
+              title="QuizUp Battle App"
+              description="I used swift 5, UIKit, Firebase Auth, Firebase Cloudstore, Firebase Storage with StoryBoard.You can download on applestore."
+              link="https://apps.apple.com/vg/app/quizup-battle-trivia/id6446598510"
+            />
+          </Col> 
 
         <Col md={4} className="project-card">
             <ProjectCard
@@ -54,7 +65,7 @@ function Projects() {
               imgPath={varmi}
               isBlog={false}
               title="VARMI Web App"
-              description="VARMI is a web app that allows you to search for everything you need. I used React, Nextjs, Tailwind, Firebase and TypeScript to build this app."
+              description="VARMI is a web app that allows you to search for everything you need. I used React, Nextjs, Tailwind, Firebase and TypeScript, Prisma to build this app. And deployed it on AWS EC2."
               link="https://www.varmi.com.tr"
             />
           </Col> 
@@ -64,7 +75,7 @@ function Projects() {
               imgPath={flickez}
               isBlog={false}
               title="FLICKEZ Web App"
-              description="Flickez is an e-sport web app. I used NextJs, TailwindCSS, SWR and Typescript to build it."
+              description="Flickez is an e-sport web app. I used NextJs, TailwindCSS, SWR and Typescript to build it. AWS S3 is used for storing images."
               link="https://flickez.com/"
             />
           </Col> 

@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Yigit Ozdamar </span>
             from <span className="purple"> Fethiye, Turkey</span>
-            <br />I am a system engineer and software developer.
+            <br />I am a system engineer and full stack developer.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -20,10 +20,13 @@ function AboutCard() {
               <ImPointRight /> Doing extreme sports
             </li>
             <li className="about-activity">
-              <ImPointRight /> Following politics
+              <ImPointRight /> Canoeing
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Reading every kind of stuff
             </li>
           </ul>
 

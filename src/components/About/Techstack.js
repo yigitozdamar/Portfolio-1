@@ -11,7 +11,8 @@ import {
   DiApple,
   DiSwift,
   DiUikit,
-  DiAppstore
+  DiAppstore,
+  DiPostgresql
 } from "react-icons/di";
 
 import { SiNextdotjs } from "react-icons/si";
@@ -19,6 +20,9 @@ import { SiNextdotjs } from "react-icons/si";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        < DiPostgresql/>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
       </Col>
