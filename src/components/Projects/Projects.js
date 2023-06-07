@@ -30,8 +30,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ecommerce}
               isBlog={false}
@@ -39,9 +38,9 @@ function Projects() {
               description="I developed this app with Next.JS, MongoDB, Styled Components, TailwindCSS, NextAuth.js and Stripe Payment System"
               link="https://github.com/yigitozdamar/"
             />
-          </Col> 
+          </Col>
 
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={quizapp}
               isBlog={false}
@@ -49,9 +48,9 @@ function Projects() {
               description="I used swift 5, UIKit, Firebase Auth, Firebase Cloudstore, Firebase Storage with StoryBoard.You can download on applestore."
               link="https://apps.apple.com/vg/app/quizup-battle-trivia/id6446598510"
             />
-          </Col> 
+          </Col>
 
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={holidayFriend}
               isBlog={false}
@@ -59,7 +58,7 @@ function Projects() {
               description="I used swift 5, UIKit, Firebase Auth, Firebase Cloudstore, Firebase Storage, Google Sign-in, MessageKit, Snapkit for Holiday Friend App. No storyboard, developed programmatically."
               link="https://github.com/yigitozdamar/"
             />
-          </Col> 
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -69,9 +68,9 @@ function Projects() {
               description="Swift 5, UIKit. I coded programmatically with no storyboard."
               link="https://github.com/yigitozdamar/"
             />
-          </Col> 
+          </Col>
 
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={varmi}
               isBlog={false}
@@ -79,7 +78,7 @@ function Projects() {
               description="VARMI is a web app that allows you to search for services you need. I used React, Nextjs, Tailwind, Firebase and TypeScript, Prisma to build this app. And deployed it on AWS EC2."
               link="https://www.varmi.com.tr"
             />
-          </Col> 
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -89,7 +88,7 @@ function Projects() {
               description="Flickez is an e-sport web app. I used NextJs, TailwindCSS, SWR and Typescript to build it. AWS S3 is used for storing images."
               link="https://flickez.com/"
             />
-          </Col> 
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={expo}
