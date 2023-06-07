@@ -16,6 +16,7 @@ import expo from "../../Assets/Projects/expo.png";
 import holidayFriend from "../../Assets/Projects/HolidayFriend.png";
 import swiftRadio from "../../Assets/Projects/SwiftRadio.png";
 import quizapp from "../../Assets/Projects/quizupimage.jpeg";
+import ecommerce from "../../Assets/Projects/ecommerce.png";
 
 function Projects() {
   return (
@@ -29,6 +30,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecommerce}
+              isBlog={false}
+              title="Ecommerce App with admin panel"
+              description="I developed this app with Next.JS, MongoDB, Styled Components, TailwindCSS, NextAuth.js and Stripe Payment System"
+              link="https://github.com/yigitozdamar/"
+            />
+          </Col> 
 
         <Col md={4} className="project-card">
             <ProjectCard
@@ -65,7 +76,7 @@ function Projects() {
               imgPath={varmi}
               isBlog={false}
               title="VARMI Web App"
-              description="VARMI is a web app that allows you to search for everything you need. I used React, Nextjs, Tailwind, Firebase and TypeScript, Prisma to build this app. And deployed it on AWS EC2."
+              description="VARMI is a web app that allows you to search for services you need. I used React, Nextjs, Tailwind, Firebase and TypeScript, Prisma to build this app. And deployed it on AWS EC2."
               link="https://www.varmi.com.tr"
             />
           </Col> 
@@ -84,7 +95,7 @@ function Projects() {
               imgPath={expo}
               isBlog={false}
               title="EXPO Virtual Exhibition Web App"
-              description="I created this web app to showcase my work in the Expo Virtual Exhibition. I used ReactJs,Bootstrap,BabylonJs,Context API,PostgreSQL."
+              description="I developed this web app to showcase my work in the Expo Virtual Exhibition. I used ReactJs,Bootstrap,BabylonJs,Context API,PostgreSQL."
               link="https://www.vexpo.com"
             />
           </Col>

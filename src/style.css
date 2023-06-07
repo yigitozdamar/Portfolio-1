@@ -508,7 +508,7 @@ button:focus {
   opacity: 0.8 !important;
   border-radius: 10px !important;
   max-height: 300px !important;
-  aspect-ratio: 1/1 !important;
+  max-width: 100% !important;
 }
 
 .blog-img {
